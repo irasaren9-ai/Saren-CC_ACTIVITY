@@ -1,0 +1,61 @@
+<template>
+    <div class="card">
+      <h2 : style=" { color:
+  recommended ? 'green ? 'Bold';
+  frontWeight: recommended ?  'bold';
+  'normal' }">
+    {{ place }}
+  </h2>
+</p>{{province }}</p>
+</div>
+ </template>
+
+ <script>
+  export default {
+    name: "DestinatonalCard";
+    props: {
+      place: String,
+      province: String,
+      recommended: Boolen,
+    }
+}
+</script>
+
+<style scoped>
+ .card {
+    margin-bottom: 20px;
+ }
+ </style>
+
+ <template>
+    <div>
+        <DestinationCard
+           place="Chocolate Hills"
+           province="Bohol"
+            :recommended="true"
+    />
+
+    <DestinationCard
+       place="Mayon Volcano"
+       province="Albay"
+        recommended="true"
+    />
+
+    <DestinationCard
+      place="Rozal Park"
+      province="Manila"
+       recommended="false"
+    />
+  </div>
+ </template>
+
+ <script>
+  import DestinationCard from ",/
+  components/DestionCard. vue";
+
+  export default {
+    name= "App";
+    components: ( 
+     DestinationCard
+  }
+}

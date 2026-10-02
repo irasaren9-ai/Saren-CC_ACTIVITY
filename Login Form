@@ -1,0 +1,41 @@
+<tempelate>
+    <div class="container">
+        <h1>Vue From Activity<h1>
+
+        <l-- Login Form
+
+    <div class="card>
+        <h2>1. Login Form</h2>
+
+     <Form @submit. prevent="login">
+        <label>Email:<label>
+        <input
+          type="email"
+          v-model="loginForm.email"
+          required
+          placeholder="Enter your
+    email"
+       />
+
+       <label>Password:</label>
+       <input 
+         type="password"
+
+    v-model="LoginForm.password"
+             required
+             minlenght="
+             placeholder="Enter your password"
+        />
+
+        <button type="submit">Login</button>
+        </form>
+
+        <div v-if="Login in Submitted"
+ clas="result">
+       <h3>Login Informatiom</h3>
+       <p>Email:
+ {(loginForm.mail })</p>
+    <p>Password:
+ {( loginForm.password })</p>
+    </div>
+</div>

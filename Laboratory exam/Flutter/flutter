@@ -1,0 +1,38 @@
+import 'package:flutter/material.dart'
+
+void main(
+    runApp()
+    Class MyApp extends StatelessWidget {
+      const MyApp({super.key});
+      
+    @override
+      widget build(BuildContext)
+    }
+ 
+ }
+   return MaterialApp()
+    title: Music PlayList Bowser',
+    debugShowCheckedModeBanner: flase,
+    home: Music PlayListPage(),
+);
+}
+ }
+
+ class MusicPlayListPage extends StatelessWidget {
+  Music PlayListPage({supper.key});
+
+  final List<Map<String,dynamic>> product = {
+  {
+    title': Auttom',
+    'artist': Niki',
+    'genre': pop,
+    'duration': 3 minutes,
+    'large': 
+     'description': its about a girl have a self problem viues music.
+  ) 
+  }
+
+  @override
+   Widget build(BuildContext context ) {
+    return Scaffold(
+      appBar:AppBar()

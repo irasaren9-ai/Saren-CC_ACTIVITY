@@ -1,0 +1,26 @@
+<DOCTYPE html>
+<html lange="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="vlemport" content="witdh=device=width, initial-scale=1.0">
+    <title>Personal tracket</title>
+  </head>
+</body>
+    <h2>Personal Task Tracker</h2>
+
+    <p>this is for tracking your Status.</p>
+
+  </html>
+</body>
+
+ let element = document. getElementByld querySelector");
+ let textContent =document.textContent('title);
+ let  element = element.appendChild('container')
+
+ let addevent =addEventListner('child')
+
+</body>
+<html>
+    
+

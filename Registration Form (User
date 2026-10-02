@@ -1,0 +1,42 @@
+Registration Form 
+
+    <div class="Card">
+      <h2>2. Registration Form (Ustr)</h2>
+
+      <form
+@submit.prevent="register">
+
+      <label>Username:</label>
+      <input
+         tpe="txt"
+
+ V-model="registration.username"
+          required
+          minlegnght="
+     />
+
+     <lenght>full Name:</label>
+    <input
+      type="text"
+
+ v-model="registration.fullName"
+          aria-required="false
+          />
+
+      <lbel>Age:<label>
+      <input
+        type="number"
+        v-model="registration.age"
+        required
+        min="
+        max="
+      />
+     
+      <label>Address:</label>
+      <input
+        type="text"
+
+ v-model="registration.address"
+          required
+        />
+        
